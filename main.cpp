@@ -28,10 +28,10 @@ char *init;
 int m;
 
 int main() {
-  char s[] = "This is a pen.";
+  char sampleText[] = "This is a pen.";
   char *p;
 
-  p = tokenize(s);
+  p = tokenize(sampleText);
   while (p != NULL) {
     m++;
     if (m == 5) break;
